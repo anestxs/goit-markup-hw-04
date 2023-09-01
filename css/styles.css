@@ -392,9 +392,14 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .employee-social-media-link:hover,
+.employee-social-media-link:focus {
+    background-color: #404bbf;
+}
+
 .employee-social-media-link:focus {
     background-color: #404bbf;
 }
