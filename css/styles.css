@@ -213,6 +213,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 .fourth-slide-title {
@@ -391,4 +392,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.employee-social-media-link:hover,
+.employee-social-media-link:focus {
+    background-color: #404bbf;
+}
+
+.social-media-icon {
+    fill: #f4f4fd;
 }
