@@ -54,12 +54,12 @@ img {
     text-decoration: none;
     padding: 24px 0;
     display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-site-link {
     color: #404BBF;
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-site-link::after,
@@ -356,4 +356,16 @@ img {
 .ending-logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.second-slide-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    margin-bottom: 8px;
+
 }
